@@ -1,25 +1,14 @@
 # Data-Science-Project-2-using-Advance-SQL
-Task Details
-As the database consultant, you are required to design the database system based on the 
-information provided above, along with a number of associated database objects, such as
-stored procedures, user-defined functions, views and triggers. Your submission will take the 
-form of working T-SQL statements required for the steps outlined below, a backup of 
-database created, and a report explaining and justifying your design decisions, and the 
-process you followed to complete the tasks. You should include screenshots and the T-SQL 
-statements within the report itself.
-Part1:
-1. You should design and normalise your proposed database into 3NF, fully explaining and 
-justifying your database design decisions and documenting the process you have gone
-through to implement this design using T-SQL statements in Microsoft SQL Server 
-Management Studio, using screenshots to support your explanation. All tables and
-views must be created using T-SQL statements, which should be included in your
-report. Clearly highlight which column(s) are primary keys or foreign keys. You should 
-also explain the data type used for each column and justify the reason for choosing 
-this. You should also consider using constraints when creating your database to help 
-ensure data integrity. You must include a database diagram as part of your submission. 
-If you have made any additional assumptions aside from the information above when
-designing your database, you should clearly state these.
-Create tables according to the scenario explained above which should include details on 
-patients, doctors, medical records, appointments, and departments. Populate (Insert) 
-the tables with the appropriate number of records (at least 7). You should also ensure
-the data you input allows you to adequately test that all the following queries.
+
+These projects involve the design and implementation of two normalized database systems in Microsoft SQL Server Management Studio (SSMS) based on specific requirements. Each database is normalized to the Third Normal Form (3NF) to ensure data integrity, reduce redundancy, and improve efficiency. The design process includes identifying entities, defining relationships, and establishing primary and foreign keys to maintain referential integrity. Partial and transitive dependencies are eliminated during normalization to achieve a robust and scalable database structure.
+
+The implementation is carried out using T-SQL statements, including creating tables with appropriate data types (e.g., INT for IDs, NVARCHAR for text, and DATE for date values), defining constraints, and establishing relationships between tables. To enhance functionality and enforce business rules, additional database objects such as views, stored procedures, and triggers are created. For example:
+
+Views are used to simplify complex queries and combine related data from multiple tables.
+
+Stored procedures automate repetitive tasks, such as inserting or updating records.
+
+Triggers enforce data integrity rules, such as preventing duplicate entries or validating data before insertion.
+
+Each project is documented with T-SQL scripts, screenshots of the implementation process in SSMS, and a detailed report explaining the design decisions, normalization process, and justification for the chosen data types and constraints. While the overall methodology is consistent across both projects, the specific design and implementation details are tailored to the unique requirements of each database system. This ensures that each project is optimized for its intended use case and adheres to best practices in database design and development.
+
